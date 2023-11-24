@@ -1,0 +1,10 @@
+.logo{
+        display: flex;
+        align-items: center;
+        gap: 8px;
+}
+.logo > span {
+    font-family: var(--font-title);
+    font-weight: 600;
+    font-size: 22px;
+}

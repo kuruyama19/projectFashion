@@ -1,0 +1,38 @@
+.header{
+    background-color: #FCFCFC;
+    padding: .4rem 1rem;
+    border-bottom: 1px solid #EBEBEB;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 900000;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu a{
+    text-decoration: none;
+    color: #333;
+}
+.nameUser{
+    display: flex;
+    align-items: center;
+}
+.nameUser > span{
+    font-family: var(--font-title);
+    font-weight: 600;
+    font-size: 22px;
+}
+.nameUser > span::after{
+    content: '';
+    background: url('../../../public/img/User.svg') center center;
+    background-size: contain;
+    height: 28.15px;
+    width: 29.38px;
+    display: inline-block;
+    position: relative;
+    bottom: -5px;
+}

@@ -1,0 +1,17 @@
+.login{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+
+@media (max-width:40rem) {
+    .login{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding-top: 4rem;
+    }
+    .img{
+        display: none;
+    }
+}
