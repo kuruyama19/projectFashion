@@ -68,23 +68,26 @@
   --color-yellow: #F6B93B;
 }
 
-.container{
+.container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
-.mainContent{
+
+.mainContent {
   margin-top: 65px;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: calc(100vh - 113px);
 }
-img{
+
+img {
   width: 100%;
   display: block;
 }
 
-.animeRight{
+.animeRight {
   opacity: 0;
   transform: translateX(100px);
   animation: animeRight .5s forwards;
@@ -92,12 +95,13 @@ img{
 
 
 @keyframes animeRight {
-  to{
+  to {
     transform: initial;
     opacity: 1;
   }
 }
-.animeLeft{
+
+.animeLeft {
   opacity: 0;
   transform: translateX(-100px);
   animation: animeLeft .5s forwards;
@@ -105,13 +109,13 @@ img{
 
 
 @keyframes animeLeft {
-  to{
+  to {
     transform: initial;
     opacity: 1;
   }
 }
 
-*{
+* {
   box-sizing: border-box;
 }
 

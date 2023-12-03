@@ -1,0 +1,13 @@
+.nav{
+    background-color: var(--color-yellow);
+    padding: .5rem 0;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu_list{
+    display: flex;
+    gap: 6px;
+}
