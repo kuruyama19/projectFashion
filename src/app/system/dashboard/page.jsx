@@ -1,8 +1,11 @@
-import React from "react";
-import SubHeaderDashboard from "../../../../components/System/Dashboard/SubHeaderDashboard/SubHeaderDashboard";
+import React from 'react'
+
 
 const page = () => {
-  return <SubHeaderDashboard />;
-};
+  return (
+    <>
+    </>
+  )
+}
 
-export default page;
+export default page

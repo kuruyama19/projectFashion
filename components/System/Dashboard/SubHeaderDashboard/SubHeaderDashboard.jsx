@@ -14,14 +14,14 @@ const SubHeaderDashboard = () => {
       <div className="container">
         <div className={styles.menu}>
         <ul className={styles.menu_list}>
-          <LinkHeader path="/slides" alt="Slides" icon={SvgSlides} />
-          <LinkHeader path="/shirts" alt="Slides" icon={SvgShirts} />
-          <LinkHeader path="/chart" alt="Slides" icon={SvgChart} />
-          <LinkHeader path="/settings" alt="Slides" icon={SvgConfig} />
-          <LinkHeader path="/" alt="Slides" icon={SvgHome}/>
+          <LinkHeader path="dashboard/slides" alt="Slides" icon={SvgSlides} />
+          <LinkHeader path="dashboard/shirts" alt="Shirts" icon={SvgShirts} />
+          <LinkHeader path="dashboard/chart" alt="Chart" icon={SvgChart} />
+          <LinkHeader path="dashboard/settings" alt="Settings" icon={SvgConfig} />
+          <LinkHeader path="/system/dashboard" alt="Home" icon={SvgHome}/>
         </ul>
         <ul>
-          <LinkHeader path="/sair" alt="Slides" icon={SvgExit}/>
+          <LinkHeader path="/sair" alt="Logout" icon={SvgExit}/>
         </ul>
         </div>
       </div>
