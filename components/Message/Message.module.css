@@ -1,10 +1,9 @@
-.error{
-    background-color: rgba(228, 102, 102, 0.582);
+.message{
+    background-color: rgba(102, 228, 102, 0.582);
     padding: 1rem 1rem;
     text-align: center;
     font-family: var(--font);
-    color: red;
+    color: green;
     border-radius: 5px;
     margin-top: 15px;
-    display: block;
 }
